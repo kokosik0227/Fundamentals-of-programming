@@ -11,7 +11,7 @@ namespace ArrayManipulation
 
                 CharacterArray charArray = new CharacterArray(3, 4);
 
-                // Test indexer
+
                 Console.WriteLine("Row 0: " + charArray[0]);
                 Console.WriteLine("Row 1: " + charArray[1]);
                 Console.WriteLine("Row 2: " + charArray[2]);

@@ -13,12 +13,12 @@ namespace ArrayManipulation
                 throw new ArgumentException("Rows and columns must be positive.");
             }
             charArray = new char[rows, cols];
-            // Initialize with sample data (e.g., a mix of letters and non-letters)
+            
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    charArray[i, j] = (char)('a' + (i + j) % 26); // Cyclic alphabet
+                    charArray[i, j] = (char)('a' + (i + j) % 26); 
                 }
             }
         }
