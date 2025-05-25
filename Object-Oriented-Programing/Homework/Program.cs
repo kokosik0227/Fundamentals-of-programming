@@ -8,7 +8,7 @@ namespace ArrayManipulation
         {
             try
             {
-                // Create a 3x4 character array
+
                 CharacterArray charArray = new CharacterArray(3, 4);
 
                 // Test indexer
@@ -17,14 +17,14 @@ namespace ArrayManipulation
                 Console.WriteLine("Row 2: " + charArray[2]);
                 try
                 {
-                    Console.WriteLine("Row 3 (invalid): " + charArray[3]); // Should throw
+                    Console.WriteLine("Row 3 (invalid): " + charArray[3]);
                 }
                 catch (IndexOutOfRangeException e)
                 {
                     Console.WriteLine("Caught error: " + e.Message);
                 }
 
-                // Test ConsonantCount property
+
                 Console.WriteLine("Number of consonants: " + charArray.ConsonantCount);
             }
             catch (Exception e)
